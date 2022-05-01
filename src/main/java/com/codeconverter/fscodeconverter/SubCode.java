@@ -8,14 +8,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MainApp extends Application {
+public class SubCode extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("maket/main-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(SubCode.class.getResource("maket/main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("FireSec Code Converter");
         stage.setResizable(false);
-        stage.getIcons().add(new Image(MainApp.class.getResourceAsStream("img/icon.png")));
+        stage.getIcons().add(new Image(SubCode.class.getResourceAsStream("img/icon.png")));
         stage.setScene(scene);
         stage.show();
     }

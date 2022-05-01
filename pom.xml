@@ -60,7 +60,6 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        <!--com.codeconverter.fscodeconverter.MainApp-->
                                         com.codeconverter.fscodeconverter.MainCode
                                     </mainClass>
                                 </manifest>
@@ -92,7 +91,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.codeconverter.fscodeconverter/com.codeconverter.fscodeconverter.HelloApplication
+                                com.codeconverter.fscodeconverter/com.codeconverter.fscodeconverter.MainCode
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
