@@ -27,8 +27,8 @@ public class MainController {
     @FXML
     TextField textFieldInput, textFieldOutput;
 
-    long MIN_VALUE = 1000;
-    long MAX_VALUE = 4294967295L;
+    final long MIN_VALUE = 1000;
+    final long MAX_VALUE = 4294967295L;
 
     ArrayList<Card> listCards = new ArrayList<>();
 
